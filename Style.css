@@ -152,10 +152,10 @@ nav img{
 .faqbox{
     display: flex;
     justify-content: space-between;
-    padding: 27px;
-    max-width: 80vw;
+    padding: 20px;
+    max-width: 70vw;
     margin: 12px auto;
-    font-size: 30px;
+    font-size: 24px;
     background-color: rgb(53, 49, 49);
 }
 
