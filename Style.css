@@ -71,10 +71,12 @@ nav img{
     background-color: rgb(43, 42, 42);
 }
 .button1{
-    padding: 8px 12px;
+    padding: 5px 33px;
     color: white;
     font-weight: 500;
-    background-color: black;
+    background-color: rgba(23,23,23,0.5);
+    border:1px solid  rgba(23,23,23,0.5);
+    border-radius: 4px;
     font-size: 16px;
 }
 .button2{
@@ -82,7 +84,7 @@ nav img{
     color: white;
     font-weight: 400;
     font-size: 14px;
-    padding: 6px 14px;
+    padding: 5px 20px;
     border: 1px solid red;
     border-radius: 4px;
     margin:0 13px;
