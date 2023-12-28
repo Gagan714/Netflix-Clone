@@ -18,7 +18,7 @@ body{
 .main .box{
     height: 644px;
     width: 100%;
-    opacity: 0.6;
+    opacity: 0.8;
     background-color: black;
     position: absolute;
     top: 0;
@@ -88,14 +88,25 @@ nav img{
     border: 1px solid red;
     border-radius: 4px;
     margin:0 13px;
+    cursor: pointer;
 }
 .button3{
     background-color: red;
     color: white;
-    
+    padding: 0px 31px;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size: 24px; 
+    font-weight:600;
+    cursor: pointer;
+    margin-left:5px;
 }
 .input{
     background-color: rgba(23,23,23,0.5);
-    border:1px solid  rgba(23,23,23,0.5);
+    border: 0.1px solid rgb(45, 43, 43);
     border-radius: 4px;
+    padding: 10px 101px 8px 14px;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
 }
