@@ -152,8 +152,14 @@ nav img{
 .faqbox{
     display: flex;
     justify-content: space-between;
-    padding: 37px;
-    max-width: 60vw;
+    padding: 27px;
+    max-width: 80vw;
     margin: 12px auto;
-    background-color: gray;
+    font-size: 30px;
+    background-color: rgb(53, 49, 49);
+}
+.faqbox img{
+    height:25px;
+    width:25px;
+    background-color: rgb(53, 49, 49);;
 }
