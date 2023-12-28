@@ -67,7 +67,8 @@ nav img{
     font-weight: 400;
 }
 .seperate{
-    height:4px;
+    height:6px;
+    z-index: 100;
     background-color: rgb(43, 42, 42);
 }
 .button1{
@@ -109,4 +110,33 @@ nav img{
     font-size: 16px;
     color: white;
     font-weight: 400;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 79vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+.firstimg{
+    position: relative;
+}
+.firstimg img{
+    width: 40vw;
+    position: relative;
+    z-index: 10;
+}
+.firstimg video{
+    position: absolute;
+    top: 85px;
+    right:60px;
+}
+.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+.first > div :nth-child(3){
+    font-size: 24px;
+    font-weight: bolder;
 }
