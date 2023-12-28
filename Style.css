@@ -140,3 +140,20 @@ nav img{
     font-size: 24px;
     font-weight: bolder;
 }
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faqbox{
+    display: flex;
+    justify-content: space-between;
+    padding: 37px;
+    max-width: 60vw;
+    margin: 12px auto;
+    background-color: gray;
+}
