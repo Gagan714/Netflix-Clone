@@ -166,6 +166,7 @@ nav img{
     max-width: 70vw;
     margin: 12px auto;
     font-size: 24px;
+    cursor: pointer;
     background-color: rgb(53, 49, 49);
 }
 .faqbox:hover{
