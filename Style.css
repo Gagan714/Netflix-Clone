@@ -120,17 +120,26 @@ nav img{
     align-items: center;
 }
 .firstimg{
+    margin-top:20px;
     position: relative;
+    width: 900px;
+    height: 500px;
 }
 .firstimg img{
-    width: 40vw;
-    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position:absolute;
     z-index: 10;
 }
 .firstimg video{
-    position: absolute;
-    top: 85px;
-    right:60px;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 80%;
+    position:absolute;
+    object-fit: cover;
 }
 .first > div :nth-child(1){
     font-size: 48px;
@@ -189,5 +198,13 @@ nav img{
     color: white;
     margin-left: 45px;
     margin-bottom: 45px;
+}
+.third video{
+    top: 40px;
+    left: 110px;
+    width: 63%;
+    height: 63%;
+    position: absolute;
+    object-fit: cover;
 }
 
